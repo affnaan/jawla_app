@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="10dp"
+
+        >
+
+        <RelativeLayout
+
+            android:padding="15dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textColor="#FF1744"
+                android:textSize="21sp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:id="@+id/fullnamehint"/>
+
+
+            <TextView
+                android:id="@+id/fullname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:layout_marginStart="180dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="User Full Name"
+                android:textColor="#2979FF"
+                android:textSize="21sp" />
+
+            <TextView
+
+                android:layout_below="@id/fullnamehint"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:textColor="#5C5A5A"
+                android:textSize="19sp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:id="@+id/emailhint"/>
+ <TextView
+
+     android:layout_below="@id/fullnamehint"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password"
+     android:layout_marginStart="180dp"
+
+
+     android:textColor="@color/black"
+                android:textSize="19sp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:id="@+id/email"/>
+
+            <TextView
+                android:layout_below="@id/emailhint"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone"
+                android:textColor="#5C5A5A"
+                android:textSize="18sp"
+                android:id="@+id/mobilehint"/>
+
+
+
+  <TextView
+      android:layout_below="@id/emailhint"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone"
+
+      android:layout_marginStart="180dp"
+
+      android:textColor="@color/black"
+                android:textSize="18sp"
+                android:id="@+id/mobile"/>
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

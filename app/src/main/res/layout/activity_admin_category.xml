@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_bg"
+    tools:context=".AdminCategoryActivity">
+
+    <TextView
+        android:id="@+id/slogan_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/add_new_product"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:textColor="#2979FF"
+        android:fontFamily="sans-serif-smallcaps" />
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="93dp"-->
+    <!--        android:layout_marginTop="550dp"-->
+    <!--        android:background="@drawable/frontlayout"-->
+    <!--        android:orientation="vertical">-->
+
+    <!--    </LinearLayout>-->
+
+    <LinearLayout
+        android:id="@+id/liner1_category_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/white_rect"
+        android:layout_below="@+id/slogan_category"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+
+
+        <!--// Change Id Later.-->
+        <ImageView
+            android:id="@+id/pizza"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/burger"
+            android:contentDescription="@string/todo" />
+<Space
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    />
+        <ImageView
+            android:id="@+id/pizza1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/salad"
+            android:contentDescription="@string/todo" />
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            />
+        <ImageView
+            android:id="@+id/pizz2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bibimbap"
+            android:contentDescription="@string/todo" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/liner2_category_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/liner1_category_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+
+        android:padding="10dp"
+        android:background="@drawable/white_rect"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <!--// Change Id Later.-->
+
+
+        <ImageView
+            android:id="@+id/bpizza1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bibimbap"
+            android:contentDescription="@string/todo" />
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            />
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            />
+        <ImageView
+            android:id="@+id/bpizza2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/burger"
+
+            android:contentDescription="@string/todo" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/liner3_category_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_rect"
+        android:layout_below="@+id/liner2_category_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+
+        <!--// Change Id Later.-->
+        <ImageView
+            android:id="@+id/e1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="12dp"
+            android:contentDescription="@string/todo"
+            android:scaleType="centerCrop"
+            android:src="@drawable/salad"
+
+
+            />
+
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            />
+        <ImageView
+            android:id="@+id/e3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:contentDescription="@string/todo"
+            android:scaleType="centerCrop"
+            android:src="@drawable/burger"
+
+ />
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            />
+
+        <ImageView
+            android:id="@+id/e4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="12dp"
+            android:contentDescription="@string/todo"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bibimbap"
+
+ />
+    </LinearLayout>
+
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content">-->
+
+    <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+    <!--&lt;!&ndash;android:id="@+id/e2"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="100dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="100dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:scaleType="centerCrop"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_marginLeft="10dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:src="@drawable/a17"/>-->
+    <!--<ImageView-->
+    <!--&lt;!&ndash;android:id="@+id/pizz3"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="85dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="100dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_marginLeft="10dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:scaleType="centerCrop"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_marginRight="12dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:src="@mipmap/lg"/> &ndash;&gt;-->
+
+    <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+    <!--&lt;!&ndash;android:id="@+id/bpizza4"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="85dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="100dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:scaleType="centerCrop"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_alignTop="@+id/liner2_category_layout"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_marginLeft="10dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:src="@mipmap/mp" />&ndash;&gt;-->
+    <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+    <!--&lt;!&ndash;android:id="@+id/bpizza3"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="85dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="100dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_marginLeft="10dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_marginRight="12dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:scaleType="centerCrop"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:src="@drawable/a23" />&ndash;&gt;-->
+    <!--</LinearLayout>-->
+    <!--<LinearLayout-->
+    <!--android:id="@+id/liner4_category_layout"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:gravity="center"-->
+    <!--android:layout_marginTop="15dp"-->
+    <!--android:layout_below="@+id/liner3_category_layout"-->
+    <!--&gt;-->
+
+
+    <!--&lt;!&ndash;// Change Id Later.&ndash;&gt;-->
+    <!--<ImageView-->
+    <!--android:id="@+id/cpiza3"-->
+    <!--android:layout_width="85dp"-->
+    <!--android:scaleType="centerCrop"-->
+    <!--android:layout_height="100dp"-->
+    <!--android:layout_marginLeft="12dp"-->
+    <!--android:src="@drawable/a28" />-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/cpiza2"-->
+    <!--android:layout_width="100dp"-->
+    <!--android:layout_height="100dp"-->
+    <!--android:scaleType="centerCrop"-->
+    <!--android:layout_marginLeft="10dp"-->
+    <!--android:src="@drawable/a22"/>-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/cpiza1"-->
+    <!--android:layout_width="100dp"-->
+    <!--android:layout_height="100dp"-->
+    <!--android:layout_marginLeft="10dp"-->
+    <!--android:scaleType="centerCrop"-->
+    <!--android:src="@drawable/a23"/>-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/cpiza"-->
+    <!--android:layout_width="85dp"-->
+    <!--android:layout_height="100dp"-->
+    <!--android:layout_marginLeft="10dp"-->
+    <!--android:layout_marginRight="12dp"-->
+    <!--android:scaleType="centerCrop"-->
+    <!--android:src="@drawable/a25"/>-->
+    <!--</LinearLayout>-->
+
+
+    <Button
+        android:id="@+id/admin_maintain_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/check_orders_btn"
+        android:layout_marginStart="25dp"
+
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="63dp"
+        android:background="@drawable/round_blue_bg_8"
+        android:text="@string/maintain_button"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/check_orders_btn"
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/admin_logout_btn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="-49dp"
+        android:background="@drawable/round_blue_bg_8"
+        android:text="@string/check_order_s"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/admin_logout_btn"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="220dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="46dp"
+        android:background="@drawable/input_design01"
+        android:padding="5dp"
+        android:text="@string/logout"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

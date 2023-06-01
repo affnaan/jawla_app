@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "298422341640",
+    "firebase_url": "https://mmmmm-2739e-default-rtdb.firebaseio.com",
+    "project_id": "mmmmm-2739e",
+    "storage_bucket": "mmmmm-2739e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298422341640:android:6a49c338016d41db20c1bd",
+        "android_client_info": {
+          "package_name": "com.definiteautomation.dreamludo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298422341640-jctbjn6bc8gk4ah8rh234iv27r8la7ug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAU0EoIMqCB9FVGGGOjSvqXPjx1ThX8Wbw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298422341640-jctbjn6bc8gk4ah8rh234iv27r8la7ug.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298422341640:android:9ae98c8903045e7220c1bd",
+        "android_client_info": {
+          "package_name": "com.jawla.ecom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298422341640-jctbjn6bc8gk4ah8rh234iv27r8la7ug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAU0EoIMqCB9FVGGGOjSvqXPjx1ThX8Wbw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298422341640-jctbjn6bc8gk4ah8rh234iv27r8la7ug.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298422341640:android:593da98a294dc2be20c1bd",
+        "android_client_info": {
+          "package_name": "com.simowner.details.Application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298422341640-jctbjn6bc8gk4ah8rh234iv27r8la7ug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAU0EoIMqCB9FVGGGOjSvqXPjx1ThX8Wbw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298422341640-jctbjn6bc8gk4ah8rh234iv27r8la7ug.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

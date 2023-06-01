@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    
+    >
+
+    
+
+    <group android:checkableBehavior="single"
+
+        >
+        <item
+
+            android:id="@+id/nav_card"
+            android:icon="@drawable/baseline_sticky_note_2_24"
+            android:iconTint="@color/sky_blue"
+            android:iconTintMode="screen"
+            android:title=" Tickets"
+           />
+
+
+
+
+
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_iconfinderssssssssssearch"
+            android:title="Search Places"
+            android:iconTint="@color/sky_blue"
+
+            />
+        <item
+            android:id="@+id/nav_categories"
+            android:icon="@drawable/ic_list"
+            android:title="Categories"
+            android:iconTint="@color/sky_blue"
+            android:visible="false"
+
+            />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_iconfinderb"
+            android:title="Settings"
+            android:iconTint="@color/sky_blue"
+
+            />
+    </group>
+
+    <item
+        android:id="@+id/nav_feedback"
+        android:icon="@drawable/ic_write_letter"
+        android:title="Feedback"
+        android:visible="false"
+        android:iconTint="@color/sky_blue"/>
+
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/ic_exit"
+        android:title="Logout"
+        android:iconTint="@color/sky_blue"/>
+
+
+
+</menu>

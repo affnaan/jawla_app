@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/time"
+    tools:context=".SplashScreenActivity">
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="50dp"-->
+<!--        android:layout_marginTop="70dp"-->
+<!--        android:text="@string/app_name"-->
+<!--        android:fontFamily="sans-serif-smallcaps"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:textSize="65sp"-->
+
+<!--        android:id="@+id/abc"-->
+<!--        />-->
+
+<!--    <TextView-->
+<!--        android:layout_below="@id/abc"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="50dp"-->
+<!--        android:text="Explore your best Dishes..."-->
+<!--        android:fontFamily="sans-serif-smallcaps"-->
+<!--        android:textColor="#C0C1C1"-->
+<!--        android:textSize="24sp"-->
+<!--        />-->
+
+
+
+
+</RelativeLayout>
